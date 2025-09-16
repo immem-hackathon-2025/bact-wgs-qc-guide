@@ -11,13 +11,13 @@ Other sequencing contexts (e.g., metagenomics, viral or fungal genomics) are out
 Contents
 
 
-[Quality Control Metrics Overview](#Quality Control Metrics Overview)
+[Quality Control Metrics Overview](#quality-control-metrics-overview)
 
-[Software to Perform Quality Control](#Software to Perform Quality Control)
+[Software to Perform Quality Control](#Software-to-Perform-Quality-Control)
 
-[Selecting the Best Assembly](#Selecting the Best Assembly)
+[Selecting the Best Assembly](#Selecting-the-Best-Assembly)
 
-[Organism-Specific Considerations](#Organism-Specific Considerations)
+[Organism-Specific Considerations](#organism-specific-considerations)
 
 ## Quality Control Metrics Overview
 
