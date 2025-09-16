@@ -1,4 +1,4 @@
-The QC Navigator: Bacterial WGS Edition
+# The QC Navigator: Bacterial WGS Edition
 
 By Boas van der Putten, Jennifer L. Guthrie, Nora Berg Blomseth, Ewelina Kamińska
 
