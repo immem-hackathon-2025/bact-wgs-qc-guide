@@ -1,2 +1,2 @@
 # bact-wgs-qc-guide
-Best practices and practical guidance for quality control (QC) of bacterial whole-genome sequencing (WGS) data.
+This repository provides a structured framework for evaluating and interpreting bacterial isolate WGS data, with a focus on applications in surveillance, outbreak detection, genotyping, and antimicrobial resistance (AMR) characterization. It outlines the key QC metrics to assess (e.g., coverage, contamination, assembly contiguity, read quality), common pitfalls (GC bias, contamination, mislabelling), and recommended tools for each stage of analysis. The goal is to support reproducible, transparent, and biologically meaningful use of WGS data by bridging wet-lab and dry-lab perspectives.
