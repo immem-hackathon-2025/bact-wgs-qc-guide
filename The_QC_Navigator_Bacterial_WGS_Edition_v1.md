@@ -10,15 +10,14 @@ Other sequencing contexts (e.g., metagenomics, viral or fungal genomics) are out
 
 Contents
 
-[Scope 1](#_Toc208915789)
 
-[Quality Control Metrics Overview 1](#_Toc208915790)
+[Quality Control Metrics Overview](#Quality Control Metrics Overview)
 
-[Software to Perform Quality Control 1](#_Toc208915791)
+[Software to Perform Quality Control](#Software to Perform Quality Control)
 
-[Selecting the Best Assembly 1](#_Toc208915792)
+[Selecting the Best Assembly](#Selecting the Best Assembly)
 
-[Organism-Specific Considerations 2](#_Toc208915793)
+[Organism-Specific Considerations](#Organism-Specific Considerations)
 
 ## Quality Control Metrics Overview
 
