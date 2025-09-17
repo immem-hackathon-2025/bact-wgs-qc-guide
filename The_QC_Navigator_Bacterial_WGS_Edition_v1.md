@@ -8,7 +8,7 @@ This document focuses on bioinformatics quality control (QC) for **bacterial iso
 
 Other sequencing contexts (e.g., metagenomics, viral or fungal genomics) are outside the scope of this QC framework.
 
-Contents
+## Contents
 
 
 [Quality Control Metrics Overview](#quality-control-metrics-overview)
@@ -19,13 +19,20 @@ Contents
 
 [Organism-Specific Considerations](#organism-specific-considerations)
 
+[Table 1. Table 1. Key Quality Control Metrics](#metrics-tbl)
+
+[Table 2. Bioinformatics QC Tools, Metrics, and Purposes.](#tools-tbl)
+
+[Table 3. Example-Sequences with Quality Control Metrics](#example-sequences)
+
+
 ## Quality Control Metrics Overview
 
 Quality control metrics provide a structured way to assess the reliability, completeness, and accuracy of bacterial whole-genome sequencing data. Evaluating these metrics ensures that downstream analyses are based on high-quality data and reduces the risk of incorrect or misleading results.
 
 Several QC metrics are correlated with each other, e.g. if a sample has a larger genome size than expected for that species, that is often due to contamination. Often samples fail multiple metrics at the same time, although it is considered good practice to check different metrics as in some circumstances a sample might fail only a single metric.
 
-**Table 1. Key Quality Control Metrics for Bacterial Whole-Genome Sequencing.**
+### <a name="metrics-tbl"></a>**Table 1. Key Quality Control Metrics for Bacterial Whole-Genome Sequencing.**
 
 | **Metric name** | **Metric description** | **Recommended Thresholds** | **What is wrong if the threshold is not met?** | **Metric Type** | **Tools (\*see Table 2)** |
 | --- | --- | --- | --- | --- | --- |
@@ -102,7 +109,7 @@ There are a number of underlying issues that can be detected through quality con
 
 ## Software to Perform Quality Control
 
-**Table 2. Bioinformatics QC Tools, Metrics, and Purposes.**
+<a name="tools-tbl"></a>**Table 2. Bioinformatics QC Tools, Metrics, and Purposes.**
 
 |  |  |  |  |  |
 | --- | --- | --- | --- | --- |
@@ -135,7 +142,7 @@ The following are examples of well-studied organisms with genomic characteristic
 * ***Treponema pallidum***, ***Helicobacter pylori*** – Low biomass/difficult to extract DNA can lead to uneven coverage.
 * ***Bordetella pertussis*** – Generally more fragmented assemblies due to the presence of very high copy number insertion sequence (IS) elements, when sequenced using short read technology.
 
-**Table 3. Example Quality Control Metrics Flagged or Failing for Bacterial Whole-Genome Assemblies.** This table provides illustrative examples of QC metrics that did not meet expected thresholds, highlighting potential issues in assembly contiguity, completeness, coverage, base composition, and contamination for bacterial isolates.
+<a name="example-sequences"></a> **Table 3. Example Quality Control Metrics Flagged or Failing for Bacterial Whole-Genome Assemblies.** This table provides illustrative examples of QC metrics that did not meet expected thresholds, highlighting potential issues in assembly contiguity, completeness, coverage, base composition, and contamination for bacterial isolates.
 
 |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
