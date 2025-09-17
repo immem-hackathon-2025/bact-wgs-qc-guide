@@ -50,9 +50,9 @@ Several QC metrics are correlated with each other, e.g. if a sample has a larger
 | Read length | Length of raw or trimmed FASTQ reads | Dependent on experimental setup. Mean length of Illumina reads should stay above 90% of intended read length. | Too low suggests sequencing experiment was not optimal (e.g. degraded DNA; library prep issues), or excessive trimming | Sequence quality | 4 |
 | Number of reads mapping back to assembly | What proportion of sequencing reads can be mapped back to the de novo assembly made from these reads | Typically ≥95% of reads should map back to the assembly for a reliable genome | A large proportion of sequencing reads may not align to the assembly, suggesting incomplete or poor-quality assembly, contamination, or sequencing errors | Assembly metric | 5 |
 | Coding sequence length | Whether coding sequences have the expected length | CDS lengths should generally fall within the expected range for the species (e.g., bacterial CDSs often 100–4,000 bp); extreme deviations should be investigated | Aberrant coding sequence length suggests presence of insertions/deletions (indels) compared to true sequence or missasembly or partial genes | Assembly / Annotation metric | 4 |
+
 <sup>a</sup>https://happykhan.github.io/qualibact/
 <sup>b</sup>https://gitlab.com/bfr_bioinformatics/AQUAMIS
-
 
 ## Common Issues Addressed by Quality Control
 
