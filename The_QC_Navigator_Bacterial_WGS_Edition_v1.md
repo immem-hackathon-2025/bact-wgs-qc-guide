@@ -19,7 +19,7 @@ Other sequencing contexts (e.g., metagenomics, viral or fungal genomics) are out
 
 [Organism-Specific Considerations](#organism-specific-considerations)
 
-[Table 1. Table 1. Key Quality Control Metrics](#metrics-tbl)
+[Table 1. Key Quality Control Metrics](#metrics-tbl)
 
 [Table 2. Bioinformatics QC Tools, Metrics, and Purposes.](#tools-tbl)
 
@@ -39,7 +39,7 @@ Several QC metrics are correlated with each other, e.g. if a sample has a larger
 | N50 | Length of the shortest contig in the sequenced genome that together with other (longer) contigs make up at least 50% of the entire genome | Qualibact<sup>a</sup>/Aquamis<sup>b</sup> | Assembly may be too fragmented for reliable analysis | Assembly quality | 4 |
 | Total assembly length | Sum of the lengths of all contigs or scaffolds in an assembled genome. Can be compared to the expected genome size to assess completeness | Qualibact<sup>a</sup>/Aquamis<sup>b</sup> | Too short may indicate missing data; too long may suggest contamination or misassembly | Assembly quality | 4 |
 | GC Content | Percentage of the bases guanine and cytosine in the genome. The GC content differs between species | Qualibact<sup>a</sup>/Aquamis<sup>b</sup> | Suggests contamination with another species | Sequence quality / Assembly | 1, 3, 4 |
-| Number of contigs | Count of contiguous assembled sequences in a genome assembly | Qualibact<sup>a</sup>/Aquamis<sup>b</sup>b | Fewer contigs generally indicate a more contiguous and higher-quality assembly, while many contigs may suggest fragmentation or assembly difficulties | Sequence quality / Assembly | 4 |
+| Number of contigs | Count of contiguous assembled sequences in a genome assembly | Qualibact<sup>a</sup>/Aquamis<sup>b</sup> | Fewer contigs generally indicate a more contiguous and higher-quality assembly, while many contigs may suggest fragmentation or assembly difficulties | Sequence quality / Assembly | 4 |
 | Depth (/depth of coverage) | Average number of times each base in the genome is sequenced | Average 50–100× and >95% of the genome should meet a minimum depth (10× for Illumina, preference for 30×) to ensure reliable assembly and variant calling | Base calls may be unreliable and variants may be missed | Sequence quality | 5 |
 | Coverage (/breadth of coverage) | Proportion of the reference genome (or expected genome size) that is represented by sequencing reads | Aim for ≥95% of the reference genome covered by high-quality reads | Parts of the genome may be missing from the assembly | Sequence quality | 5 |
 | Completeness | Estimated completeness of genome as determined from the presence/absence of marker genes | Qualibact<sup>a</sup> | Parts of the genome may be missing from the assembly |  |  |
@@ -50,6 +50,8 @@ Several QC metrics are correlated with each other, e.g. if a sample has a larger
 | Read length | Length of raw or trimmed FASTQ reads | Dependent on experimental setup. Mean length of Illumina reads should stay above 90% of intended read length. | Too low suggests sequencing experiment was not optimal (e.g. degraded DNA; library prep issues), or excessive trimming | Sequence quality | 4 |
 | Number of reads mapping back to assembly | What proportion of sequencing reads can be mapped back to the de novo assembly made from these reads | Typically ≥95% of reads should map back to the assembly for a reliable genome | A large proportion of sequencing reads may not align to the assembly, suggesting incomplete or poor-quality assembly, contamination, or sequencing errors | Assembly metric | 5 |
 | Coding sequence length | Whether coding sequences have the expected length | CDS lengths should generally fall within the expected range for the species (e.g., bacterial CDSs often 100–4,000 bp); extreme deviations should be investigated | Aberrant coding sequence length suggests presence of insertions/deletions (indels) compared to true sequence or missasembly or partial genes | Assembly / Annotation metric | 4 |
+<sup>a</sup>https://happykhan.github.io/qualibact/
+<sup>b</sup>https://gitlab.com/bfr_bioinformatics/AQUAMIS
 
 
 ## Common Issues Addressed by Quality Control
