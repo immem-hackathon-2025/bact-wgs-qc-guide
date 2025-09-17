@@ -124,9 +124,10 @@ There are a number of underlying issues that can be detected through quality con
 
 For the same sample, when multiple sequencing runs or assemblies pass established QC metrics, the choice of which sequence to use should consider overall assembly quality, completeness, and coverage of regions of interest. Prefer assemblies with high chromosomal contiguity (e.g., higher N50 for the main chromosome) and a total genome length consistent with the expected reference. The presence of additional contigs corresponding to plasmids or other accessory elements should not be penalized, as these are biologically relevant. Sequences with more uniform coverage, higher read quality, and lower contamination are preferred. Additionally, prioritize assemblies that provide the most complete representation of genomic regions relevant to the application, such as MLST loci or antimicrobial resistance genes. When differences between assemblies are minor, select the sequence with stronger support for variant calling and other downstream analyses, and document the rationale for transparency and reproducibility. **Consultation with the laboratory team is recommended to interpret QC results, discuss potential sources of error, and consider iterative wet-lab or dry-lab improvements for future sequencing runs.**
 
-![A diagram of a diagram
 
-AI-generated content may be incorrect.](data:image/png;base64...)
+<img src="hackathon_QC_Hierarchy_bestAssembly.png" alt="QC Hierarchy for Selecting the Best Assembly" width="300">
+<p><strong>Figure 1. QC Hierarchy for Selecting the Best Assembly</strong></p>
+
 
 ## Organism-Specific Considerations
 
